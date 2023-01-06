@@ -1,0 +1,94 @@
+body {
+    background-color: darkgreen;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+h1 {
+    color: gold;
+    font-size: 60px;
+}
+button {
+    background-color: goldenrod;
+    color: black;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    margin: 3px auto;
+    padding: 10px;
+    cursor: pointer;
+}
+#message-1 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.wrapper {
+    margin: auto;
+    width: fit-content;
+}
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    height: 120px;
+    width: 120px;
+    border: 2px solid black;
+    padding-top: 60px;
+    border-radius: 10px;
+    font-size: 3rem;
+    text-align: center;
+    box-shadow: 1px 1px 3px 1px yellow;
+}
+.card[data-red=true]{
+    color: red;
+}
+.back {
+    content: "";
+    background-color: green;
+}
+#dealer {
+    display: flex;
+    flex-direction: row;
+}
+#player {
+    display: flex;
+    flex-direction: row;
+}
+.dealer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    width: 4em;
+    font-size: 1.5em;
+}
+.message {
+    margin-top: 25px;
+    padding: 15px;
+    font-size: 1.4em;
+    font-family: cursive;
+}
+.dealer-score {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.player-score {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
